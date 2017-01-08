@@ -22,7 +22,7 @@ public static int turn=0;
 	}
 	public static void main(String[] args){
 		init();
-		System.out.println("Press any Number to start Game")
+		System.out.println("Press any Number to start Game");
 		Scanner sn=new Scanner(System.in);
 		if(sn.hasNextInt()){
 		start_game();
